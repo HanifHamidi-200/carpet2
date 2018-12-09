@@ -1,0 +1,10 @@
+C:\Users\hanif\source\repos\DRILL\DRILL\bin\Debug\DRILL.exe.config
+C:\Users\hanif\source\repos\DRILL\DRILL\bin\Debug\DRILL.exe
+C:\Users\hanif\source\repos\DRILL\DRILL\bin\Debug\DRILL.pdb
+C:\Users\hanif\source\repos\DRILL\DRILL\obj\Debug\DRILL.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\DRILL\DRILL\obj\Debug\DRILL.Form1.resources
+C:\Users\hanif\source\repos\DRILL\DRILL\obj\Debug\DRILL.Properties.Resources.resources
+C:\Users\hanif\source\repos\DRILL\DRILL\obj\Debug\DRILL.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\DRILL\DRILL\obj\Debug\DRILL.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\DRILL\DRILL\obj\Debug\DRILL.exe
+C:\Users\hanif\source\repos\DRILL\DRILL\obj\Debug\DRILL.pdb

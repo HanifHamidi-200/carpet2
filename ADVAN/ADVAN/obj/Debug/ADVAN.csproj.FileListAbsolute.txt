@@ -1,0 +1,10 @@
+C:\Users\hanif\source\repos\ADVAN\ADVAN\bin\Debug\ADVAN.exe.config
+C:\Users\hanif\source\repos\ADVAN\ADVAN\bin\Debug\ADVAN.exe
+C:\Users\hanif\source\repos\ADVAN\ADVAN\bin\Debug\ADVAN.pdb
+C:\Users\hanif\source\repos\ADVAN\ADVAN\obj\Debug\ADVAN.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\ADVAN\ADVAN\obj\Debug\ADVAN.Form1.resources
+C:\Users\hanif\source\repos\ADVAN\ADVAN\obj\Debug\ADVAN.Properties.Resources.resources
+C:\Users\hanif\source\repos\ADVAN\ADVAN\obj\Debug\ADVAN.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\ADVAN\ADVAN\obj\Debug\ADVAN.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\ADVAN\ADVAN\obj\Debug\ADVAN.exe
+C:\Users\hanif\source\repos\ADVAN\ADVAN\obj\Debug\ADVAN.pdb
