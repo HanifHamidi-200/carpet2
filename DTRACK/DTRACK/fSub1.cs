@@ -18,6 +18,12 @@ namespace DTRACK
         private int nNumber;
         private int mnCol, mnRow,mnRotate;
         private int mnWin=0;
+        private int mnScore = 0;
+
+        private void fUpdateStatus()
+        {
+            lblScore.Text = "Score = " + Convert.ToString(mnScore);
+        }
 
         private void fNav(int nMode)
         {
@@ -238,8 +244,13 @@ namespace DTRACK
             mnCol = nCol;
             mnRow = nRow;
             mnRotate = rnd1.Next(1, 5);
-            
+
+            txt1.Text = null;
+            txt2.Text = null;
+            txt3.Text = null;
+
             fUpdateDisplay();
+            fUpdateStatus();
          }
 
         private void fFree(ref int nCol, ref int nRow)
@@ -990,8 +1001,10 @@ namespace DTRACK
                 fDig _dlg = new fDig();
                 _dlg.ShowDialog();
                 mnWin += 1;
+                mnScore += 10;
                 fPlace(sTwo, nPos);
                 fUpdateDisplay();
+                fUpdateStatus();
             }
         }
 

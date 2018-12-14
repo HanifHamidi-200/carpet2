@@ -17,8 +17,65 @@ namespace DTRACK
         private int mnWin=0;
         private String msShuffle;
         private String msShuffle2;
+        private List<String> _col1 = new List<string> { null, null, null, null, null, null, null, null };
+        private List<String> _col2 = new List<string> { null, null, null, null, null, null, null, null };
+        private List<String> _col3 = new List<string> { null, null, null, null, null, null, null, null };
+        private List<String> _col4 = new List<string> { null, null, null, null, null, null, null, null };
+        private List<String> _col5 = new List<string> { null, null, null, null, null, null, null, null };
+        private List<String> _col6 = new List<string> { null, null, null, null, null, null, null, null };
+        private List<String> _col7 = new List<string> { null, null, null, null, null, null, null, null };
+        private List<String> _col8 = new List<string> { null, null, null, null, null, null, null, null };
         private int nNumber;
-    
+        private int mnCol, mnRow;
+
+        private void fSave(String sText)
+        {
+            fSetText(sText, mnCol, mnRow);
+        }
+
+        private void fUpdateStatus()
+        {
+            String sText = fGetText(mnCol, mnRow);
+
+            fra1.Text = "Box" + Convert.ToString(mnCol) + Convert.ToString(mnRow);
+            txtName.Text = sText;
+        }
+
+        private void fClick(int nCol,int nRow)
+        {          
+            mnCol = nCol;
+            mnRow = nRow;
+            fUpdateStatus();
+        }
+
+        private void fExpand(int nMode)
+        {
+            Random rnd1 = new Random();
+            String sTwo;
+            int nPos;
+            int nCol = 0, nRow = 0;
+            int nCount = rnd1.Next(1, 7);
+            
+            for (int i = 1; i <= nCount; i++)
+            {
+                fFree(ref nCol, ref nRow);
+                sTwo = "0"+Convert.ToString(nMode);
+                nPos = (nCol - 1) * 8 + nRow;
+                fPlace(sTwo, nPos);
+                if (nMode == 7)
+                {
+                    fSetText("shop", nCol, nRow);
+
+                }
+                else
+                {
+                    fSetText("road", nCol, nRow);
+
+                }
+            }
+
+            fUpdateDisplay();
+        }
         private void fFGet()
         {
             String sName = msFile;
@@ -41,6 +98,61 @@ namespace DTRACK
        
 
         }
+
+        private String fGetText(int nCol,int nRow)
+        {
+            switch (nCol)
+            {
+                case 1:
+                    return _col1[nRow - 1];
+                case 2:
+                    return _col2[nRow - 1];
+                case 3:
+                    return _col3[nRow - 1];
+                case 4:
+                    return _col4[nRow - 1];
+                case 5:
+                    return _col5[nRow - 1];
+                case 6:
+                    return _col6[nRow - 1];
+                case 7:
+                    return _col7[nRow - 1];
+                default:
+                    return _col8[nRow - 1];
+            }
+        }
+
+        private void fSetText(String sText,int nCol,int nRow)
+        {
+            switch (nCol)
+            {
+                case 1:
+                    _col1[nRow - 1] = sText;
+                    break;
+                case 2:
+                    _col2[nRow - 1] = sText;
+                    break;
+                case 3:
+                    _col3[nRow - 1] = sText;
+                    break;
+                case 4:
+                    _col4[nRow - 1] = sText;
+                    break;
+                case 5:
+                    _col5[nRow - 1] = sText;
+                    break;
+                case 6:
+                    _col6[nRow - 1] = sText;
+                    break;
+                case 7:
+                    _col7[nRow - 1] = sText;
+                    break;
+                default:
+                    _col8[nRow - 1] = sText;
+                    break;
+            }
+        }
+
         private void fReset()
         {
             fAsk _dlg=new fAsk();
@@ -74,7 +186,20 @@ namespace DTRACK
 
             msShuffle = "01020304050607080910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364";
             msShuffle2 = null;
-          
+            mnCol = rnd1.Next(1, 9);
+            mnRow = rnd1.Next(1, 9);
+
+            for (int i = 1; i <= 8; i++)
+            {
+                _col1[i - 1] = null;
+                _col2[i - 1] = null;
+                _col3[i - 1] = null;
+                _col4[i - 1] = null;
+                _col5[i - 1] = null;
+                _col6[i - 1] = null;
+                _col7[i - 1] = null;
+                _col8[i - 1] = null;
+            }
             for (int i = 1; i <= 64; i++)
             {
                 nNumber = rnd1.Next(1, 10);
@@ -98,6 +223,7 @@ namespace DTRACK
                 sTwo = "03";
                 nPos = (nCol - 1) * 8 + nRow;
                 fPlace(sTwo, nPos);
+                fSetText("city", nCol, nRow);
             }
 
             for (int i = 1; i <= nHills; i++)
@@ -106,6 +232,7 @@ namespace DTRACK
                 sTwo = "05";
                 nPos = (nCol - 1) * 8 + nRow;
                 fPlace(sTwo, nPos);
+                fSetText("hill", nCol, nRow);
             }
             fFree(ref nCol, ref nRow);
             sTwo = "08";
@@ -117,7 +244,7 @@ namespace DTRACK
             fPlace(sTwo, nPos);
 
             fUpdateDisplay();
-
+            fUpdateStatus();
         }
         private int fHoletype(String sShuffle, int nSquare)
         {
@@ -491,6 +618,346 @@ namespace DTRACK
         private void btnQNext_Click(object sender, EventArgs e)
         {
             fReset();
+        }
+
+        private void btnCity_Click(object sender, EventArgs e)
+        {
+            fExpand(7);
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            fSave(txtName.Text);
+        }
+
+        private void pic11_Click(object sender, EventArgs e)
+        {
+            fClick(1, 1);
+        }
+
+        private void pic12_Click(object sender, EventArgs e)
+        {
+            fClick(1, 2);
+        }
+
+        private void pic13_Click(object sender, EventArgs e)
+        {
+            fClick(1, 3);
+        }
+
+        private void pic14_Click(object sender, EventArgs e)
+        {
+            fClick(1, 4);
+        }
+
+        private void pic15_Click(object sender, EventArgs e)
+        {
+            fClick(1, 5);
+        }
+
+        private void pic16_Click(object sender, EventArgs e)
+        {
+            fClick(1, 6);
+        }
+
+        private void pic17_Click(object sender, EventArgs e)
+        {
+            fClick(1, 7);
+        }
+
+        private void pic18_Click(object sender, EventArgs e)
+        {
+            fClick(1, 8);
+        }
+
+        private void pic21_Click(object sender, EventArgs e)
+        {
+            fClick(2, 1);
+        }
+
+        private void pic22_Click(object sender, EventArgs e)
+        {
+            fClick(2, 2);
+        }
+
+        private void pic23_Click(object sender, EventArgs e)
+        {
+            fClick(2, 3);
+        }
+
+        private void pic24_Click(object sender, EventArgs e)
+        {
+            fClick(2, 4);
+        }
+
+        private void pic25_Click(object sender, EventArgs e)
+        {
+            fClick(2, 5);
+        }
+
+        private void pic26_Click(object sender, EventArgs e)
+        {
+            fClick(2, 6);
+        }
+
+        private void pic27_Click(object sender, EventArgs e)
+        {
+            fClick(2, 7);
+        }
+
+        private void pic28_Click(object sender, EventArgs e)
+        {
+            fClick(2, 8);
+        }
+
+        private void pic31_Click(object sender, EventArgs e)
+        {
+            fClick(3, 1);
+        }
+
+        private void pic32_Click(object sender, EventArgs e)
+        {
+            fClick(3, 2);
+        }
+
+        private void pic33_Click(object sender, EventArgs e)
+        {
+            fClick(3, 3);
+        }
+
+        private void pic34_Click(object sender, EventArgs e)
+        {
+            fClick(3, 4);
+        }
+
+        private void pic35_Click(object sender, EventArgs e)
+        {
+            fClick(3, 5);
+        }
+
+        private void pic36_Click(object sender, EventArgs e)
+        {
+            fClick(3, 6);
+        }
+
+        private void pic37_Click(object sender, EventArgs e)
+        {
+            fClick(3, 7);
+        }
+
+        private void pic38_Click(object sender, EventArgs e)
+        {
+            fClick(3, 8);
+        }
+
+        private void pic41_Click(object sender, EventArgs e)
+        {
+            fClick(4, 1);
+        }
+
+        private void pic42_Click(object sender, EventArgs e)
+        {
+            fClick(4, 2);
+        }
+
+        private void pic43_Click(object sender, EventArgs e)
+        { 
+            fClick(4, 3);
+        }
+
+        private void pic44_Click(object sender, EventArgs e)
+        {
+            fClick(4, 4);
+        }
+
+        private void pic45_Click(object sender, EventArgs e)
+        {
+            fClick(4, 5);
+        }
+
+        private void pic46_Click(object sender, EventArgs e)
+        {
+            fClick(4, 6);
+        }
+
+        private void pic47_Click(object sender, EventArgs e)
+        {
+            fClick(4, 7);
+        }
+
+        private void pic48_Click(object sender, EventArgs e)
+        {
+            fClick(4, 8);
+        }
+
+        private void pic51_Click(object sender, EventArgs e)
+        {
+            fClick(5, 1);
+        }
+
+        private void pic52_Click(object sender, EventArgs e)
+        {
+            fClick(5, 2);
+        }
+
+        private void pic53_Click(object sender, EventArgs e)
+        {
+            fClick(5, 3);
+        }
+
+        private void pic54_Click(object sender, EventArgs e)
+        {
+            fClick(5, 4);
+        }
+
+        private void pic55_Click(object sender, EventArgs e)
+        {
+            fClick(5, 5);
+        }
+
+        private void pic56_Click(object sender, EventArgs e)
+        {
+            fClick(5, 6);
+        }
+
+        private void pic57_Click(object sender, EventArgs e)
+        {
+            fClick(5, 7);
+        }
+
+        private void pic58_Click(object sender, EventArgs e)
+        {
+            fClick(5, 8);
+        }
+
+        private void pic61_Click(object sender, EventArgs e)
+        {
+            fClick(6, 1);
+        }
+
+        private void pic62_Click(object sender, EventArgs e)
+        {
+            fClick(6, 2);
+        }
+
+        private void pic63_Click(object sender, EventArgs e)
+        {
+            fClick(6, 3);
+        }
+
+        private void pic64_Click(object sender, EventArgs e)
+        {
+            fClick(6, 4);
+        }
+
+        private void pic65_Click(object sender, EventArgs e)
+        {
+            fClick(6, 5);
+        }
+
+        private void pic66_Click(object sender, EventArgs e)
+        {
+            fClick(6, 6);
+        }
+
+        private void pic67_Click(object sender, EventArgs e)
+        {
+            fClick(6, 7);
+        }
+
+        private void pic68_Click(object sender, EventArgs e)
+        {
+            fClick(6, 8);
+        }
+
+        private void pic71_Click(object sender, EventArgs e)
+        {
+            fClick(7, 1);
+        }
+
+        private void pic72_Click(object sender, EventArgs e)
+        {
+            fClick(7, 2);
+        }
+
+        private void pic73_Click(object sender, EventArgs e)
+        {
+            fClick(7, 3);
+        }
+
+        private void pic74_Click(object sender, EventArgs e)
+        {
+            fClick(7, 4);
+        }
+
+        private void pic75_Click(object sender, EventArgs e)
+        {
+            fClick(7, 5);
+        }
+
+        private void pic76_Click(object sender, EventArgs e)
+        {
+            fClick(7, 6);
+        }
+
+        private void pic77_Click(object sender, EventArgs e)
+        {
+            fClick(7, 7);
+        }
+
+        private void pic78_Click(object sender, EventArgs e)
+        {
+            fClick(7, 8);
+        }
+
+        private void pic81_Click(object sender, EventArgs e)
+        {
+            fClick(8, 1);
+        }
+
+        private void pic82_Click(object sender, EventArgs e)
+        {
+            fClick(8, 2);
+        }
+
+        private void pic83_Click(object sender, EventArgs e)
+        {
+            fClick(8, 3);
+        }
+
+        private void pic84_Click(object sender, EventArgs e)
+        {
+            fClick(8, 4);
+        }
+
+        private void pic85_Click(object sender, EventArgs e)
+        {
+            fClick(8, 5);
+        }
+
+        private void pic86_Click(object sender, EventArgs e)
+        {
+            fClick(8, 6);
+        }
+
+        private void pic87_Click(object sender, EventArgs e)
+        {
+            fClick(8, 7);
+        }
+
+        private void pic88_Click(object sender, EventArgs e)
+        {
+            fClick(8, 8);
+        }
+
+        private void btnCity_Click_1(object sender, EventArgs e)
+        {
+            fExpand(7);
+        }
+
+        private void btnHills_Click(object sender, EventArgs e)
+        {
+            fExpand(6);
         }
     }
 }
