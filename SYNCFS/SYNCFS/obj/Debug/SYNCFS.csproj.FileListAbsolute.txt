@@ -19,3 +19,4 @@ C:\Users\hanif\Desktop\carpet2\SYNCFS\SYNCFS\obj\Debug\SYNCFS.csproj.GenerateRes
 C:\Users\hanif\Desktop\carpet2\SYNCFS\SYNCFS\obj\Debug\SYNCFS.csproj.CoreCompileInputs.cache
 C:\Users\hanif\Desktop\carpet2\SYNCFS\SYNCFS\obj\Debug\SYNCFS.exe
 C:\Users\hanif\Desktop\carpet2\SYNCFS\SYNCFS\obj\Debug\SYNCFS.pdb
+C:\Users\hanif\Desktop\carpet2\SYNCFS\SYNCFS\obj\Debug\SYNCFS.fSub2.resources

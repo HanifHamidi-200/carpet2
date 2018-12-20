@@ -24,7 +24,152 @@ namespace RFAKE
         private List<bool> _check = new List<bool> { false, false, false, false, false, false, false, false, false, false };
         private int nNumber;
         private int mnFake=0, mnReal=0;
+        private String msShuffle;
+        private String msShuffle2;
+        private int mnItem;
 
+        private void fPeek(int nValue, int nRotate, ref PictureBox _pic2)
+        {
+            PictureBox picture1 = new PictureBox
+            {
+                Name = "pictureBox1",
+                Image = Image.FromFile(@"F off1.png"),
+                SizeMode = PictureBoxSizeMode.StretchImage
+            };
+            PictureBox picture2 = new PictureBox
+            {
+                Name = "pictureBox2",
+                Image = Image.FromFile(@"F off2.png"),
+                SizeMode = PictureBoxSizeMode.StretchImage
+            };
+            PictureBox picture3 = new PictureBox
+            {
+                Name = "pictureBox3",
+                Image = Image.FromFile(@"F off3.png"),
+                SizeMode = PictureBoxSizeMode.StretchImage
+            };
+            PictureBox picture4 = new PictureBox
+            {
+                Name = "pictureBox4",
+                Image = Image.FromFile(@"F off4.png"),
+                SizeMode = PictureBoxSizeMode.StretchImage
+            };
+            PictureBox picture5 = new PictureBox
+            {
+                Name = "pictureBox5",
+                Image = Image.FromFile(@"F on1.png"),
+                SizeMode = PictureBoxSizeMode.StretchImage
+            };
+            PictureBox picture6 = new PictureBox
+            {
+                Name = "pictureBox6",
+                Image = Image.FromFile(@"F on2.png"),
+                SizeMode = PictureBoxSizeMode.StretchImage
+            };
+            PictureBox picture7 = new PictureBox
+            {
+                Name = "pictureBox7",
+                Image = Image.FromFile(@"F on3.png"),
+                SizeMode = PictureBoxSizeMode.StretchImage
+            };
+            PictureBox picture8 = new PictureBox
+            {
+                Name = "pictureBox8",
+                Image = Image.FromFile(@"F on4.png"),
+                SizeMode = PictureBoxSizeMode.StretchImage
+            };
+            PictureBox picture9 = new PictureBox
+            {
+                Name = "pictureBox9",
+                Image = Image.FromFile(@"F NullGate.png"),
+                SizeMode = PictureBoxSizeMode.StretchImage
+            };
+        
+            switch (nValue)
+            {
+                case 1:
+                    _pic2 = picture1;
+                    break;
+                case 2:
+                    _pic2 = picture2;
+                    break;
+                case 3:
+                    _pic2 = picture3;
+                    break;
+                case 4:
+                    _pic2 = picture4;
+                    break;
+                case 5:
+                    _pic2 = picture5;
+                    break;
+                case 6:
+                    _pic2 = picture6;
+                    break;
+                case 7:
+                    _pic2 = picture7;
+                    break;
+                case 8:
+                    _pic2 = picture8;
+                    break;
+                default:
+                    _pic2 = picture9;
+                    break;
+            }
+            for (int i = 1; i <= nRotate - 1; i++)
+            {
+                _pic2.Image.RotateFlip(RotateFlipType.Rotate90FlipNone);
+            }
+
+        }
+
+        private int fHoletype(String sShuffle, int nSquare)
+        {
+            int nType = 0;
+        
+            nType = Convert.ToInt32(msShuffle2.Substring((nSquare - 1)*2, 2));
+            return nType;
+        }
+
+        private void fSelect()
+        {
+            int nType = mnItem + 4;
+            String sTwo = "0" + Convert.ToString(nType);
+            PictureBox _pic = new PictureBox();
+            int nRotate = 1;
+
+            msShuffle2 = "01020304";
+            fPlace(sTwo, mnItem);
+
+         
+            //1
+            nType = fHoletype(msShuffle2, 1);
+            fPeek(nType, nRotate, ref _pic);
+            pic1.Image = _pic.Image;
+            nType = fHoletype(msShuffle2, 2);
+            fPeek(nType, nRotate, ref _pic);
+            pic2.Image = _pic.Image;
+            nType = fHoletype(msShuffle2, 3);
+            fPeek(nType, nRotate, ref _pic);
+            pic3.Image = _pic.Image;
+            nType = fHoletype(msShuffle2, 4);
+            fPeek(nType, nRotate, ref _pic);
+            pic4.Image = _pic.Image;
+
+        }
+
+        private void fPlace(String sText, int nPos)
+        {
+            if (nPos == 4)
+            {
+                msShuffle2 = msShuffle2.Substring(0, nPos * 2 - 2) + sText;
+
+            }
+            else
+            {
+                msShuffle2 = msShuffle2.Substring(0, nPos * 2 - 2) + sText + msShuffle2.Substring(nPos * 2, (4 - nPos) * 2);
+
+            }
+        }
         private void fReset()
         {
             Random rnd1 = new Random();
@@ -101,6 +246,9 @@ namespace RFAKE
             fBut();
             fCheck();
             fUpdateDisplay();
+
+            mnItem = rnd1.Next(1, 5);
+            fSelect();
         }
 
         private void fBut()
@@ -199,6 +347,33 @@ namespace RFAKE
         {
             mnReal += 1;
             fReset();
+
+        }
+
+        private void pic1_Click(object sender, EventArgs e)
+        {
+            mnItem = 1;
+            fSelect();
+        }
+
+        private void pic2_Click(object sender, EventArgs e)
+        {
+            mnItem = 2;
+            fSelect();
+
+        }
+
+        private void pic3_Click(object sender, EventArgs e)
+        {
+            mnItem = 3;
+            fSelect();
+
+        }
+
+        private void pic4_Click(object sender, EventArgs e)
+        {
+            mnItem = 4;
+            fSelect();
 
         }
 

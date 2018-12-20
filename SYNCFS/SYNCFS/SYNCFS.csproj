@@ -96,6 +96,15 @@
     <EmbeddedResource Include="fSub1.resx">
       <DependentUpon>fSub1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="fSub2.resx">
+      <DependentUpon>fSub2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSub3.resx">
+      <DependentUpon>fSub3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSub5.resx">
+      <DependentUpon>fSub5.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -119,6 +128,19 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="icons2\F celltype1.png" />
+    <Content Include="icons2\F celltype2.png" />
+    <Content Include="icons2\F celltype3.png" />
+    <Content Include="icons2\F celltype4.png" />
+    <Content Include="icons2\F chemical1.png" />
+    <Content Include="icons2\F chemical2.png" />
+    <Content Include="icons2\F chemical3.png" />
+    <Content Include="icons2\F DesiredDisposal1.png" />
+    <Content Include="icons2\F DesiredDisposal2.png" />
+    <Content Include="icons2\F DesiredDisposal3.png" />
+    <Content Include="icons2\F moon.png" />
+    <Content Include="icons2\F NullGate.png" />
+    <Content Include="icons2\F YOU2.png" />
     <Content Include="icons\F innerspace.png" />
     <Content Include="icons\F moons.png" />
     <Content Include="icons\F NullGate.png" />
