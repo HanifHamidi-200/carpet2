@@ -27,7 +27,7 @@ namespace RFAKE
         private String msShuffle;
         private String msShuffle2;
         private int mnItem;
-
+        private int mnFeeling;
         private void fPeek(int nValue, int nRotate, ref PictureBox _pic2)
         {
             PictureBox picture1 = new PictureBox
@@ -132,6 +132,7 @@ namespace RFAKE
 
         private void fSelect()
         {
+            Random rnd1 = new Random();
             int nType = mnItem + 4;
             String sTwo = "0" + Convert.ToString(nType);
             PictureBox _pic = new PictureBox();
@@ -155,6 +156,20 @@ namespace RFAKE
             fPeek(nType, nRotate, ref _pic);
             pic4.Image = _pic.Image;
 
+            mnFeeling = rnd1.Next(1, 4);
+
+            switch (mnFeeling)
+            {
+                case 1:
+                    lblFeeling.Text = "perplexed";
+                    break;
+                case 2:
+                    lblFeeling.Text = "syndicate";
+                    break;
+                default:
+                    lblFeeling.Text = "astable";
+                    break;
+            }
         }
 
         private void fPlace(String sText, int nPos)
@@ -183,6 +198,7 @@ namespace RFAKE
             mnCount = nCount;
             btnFake.Text = "FAKE" + Convert.ToString(mnFake);
             btnReal.Text = "REAL" + Convert.ToString(mnReal);
+            txt1.Text = null;
 
             for (int i = 1; i <= nCount; i++)
             {
@@ -350,10 +366,14 @@ namespace RFAKE
 
         }
 
-        private void pic1_Click(object sender, EventArgs e)
+   
+
+        private void pic1_Click_1(object sender, EventArgs e)
         {
             mnItem = 1;
             fSelect();
+
+
         }
 
         private void pic2_Click(object sender, EventArgs e)
