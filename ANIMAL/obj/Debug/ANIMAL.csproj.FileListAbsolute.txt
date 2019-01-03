@@ -1,0 +1,14 @@
+C:\Users\hanif\source\LibraryADF4\ANIMAL\bin\Debug\ANIMAL.exe.config
+C:\Users\hanif\source\LibraryADF4\ANIMAL\bin\Debug\ANIMAL.exe
+C:\Users\hanif\source\LibraryADF4\ANIMAL\bin\Debug\ANIMAL.pdb
+C:\Users\hanif\source\LibraryADF4\ANIMAL\obj\Debug\ANIMAL.csprojAssemblyReference.cache
+C:\Users\hanif\source\LibraryADF4\ANIMAL\obj\Debug\ANIMAL.Form1.resources
+C:\Users\hanif\source\LibraryADF4\ANIMAL\obj\Debug\ANIMAL.fSub1.resources
+C:\Users\hanif\source\LibraryADF4\ANIMAL\obj\Debug\ANIMAL.fSub2.resources
+C:\Users\hanif\source\LibraryADF4\ANIMAL\obj\Debug\ANIMAL.fSub3.resources
+C:\Users\hanif\source\LibraryADF4\ANIMAL\obj\Debug\ANIMAL.fSub4.resources
+C:\Users\hanif\source\LibraryADF4\ANIMAL\obj\Debug\ANIMAL.Properties.Resources.resources
+C:\Users\hanif\source\LibraryADF4\ANIMAL\obj\Debug\ANIMAL.csproj.GenerateResource.cache
+C:\Users\hanif\source\LibraryADF4\ANIMAL\obj\Debug\ANIMAL.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\LibraryADF4\ANIMAL\obj\Debug\ANIMAL.exe
+C:\Users\hanif\source\LibraryADF4\ANIMAL\obj\Debug\ANIMAL.pdb

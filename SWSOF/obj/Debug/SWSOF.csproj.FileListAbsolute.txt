@@ -1,0 +1,10 @@
+C:\Users\hanif\source\CantelliPerelli\SWSOF\bin\Debug\SWSOF.exe.config
+C:\Users\hanif\source\CantelliPerelli\SWSOF\bin\Debug\SWSOF.exe
+C:\Users\hanif\source\CantelliPerelli\SWSOF\bin\Debug\SWSOF.pdb
+C:\Users\hanif\source\CantelliPerelli\SWSOF\obj\Debug\SWSOF.csprojAssemblyReference.cache
+C:\Users\hanif\source\CantelliPerelli\SWSOF\obj\Debug\SWSOF.Form1.resources
+C:\Users\hanif\source\CantelliPerelli\SWSOF\obj\Debug\SWSOF.Properties.Resources.resources
+C:\Users\hanif\source\CantelliPerelli\SWSOF\obj\Debug\SWSOF.csproj.GenerateResource.cache
+C:\Users\hanif\source\CantelliPerelli\SWSOF\obj\Debug\SWSOF.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\CantelliPerelli\SWSOF\obj\Debug\SWSOF.exe
+C:\Users\hanif\source\CantelliPerelli\SWSOF\obj\Debug\SWSOF.pdb

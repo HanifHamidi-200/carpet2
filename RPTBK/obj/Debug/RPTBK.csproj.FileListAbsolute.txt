@@ -1,0 +1,10 @@
+C:\Users\hanif\source\CantelliPerelli\RPTBK\bin\Debug\RPTBK.exe.config
+C:\Users\hanif\source\CantelliPerelli\RPTBK\bin\Debug\RPTBK.exe
+C:\Users\hanif\source\CantelliPerelli\RPTBK\bin\Debug\RPTBK.pdb
+C:\Users\hanif\source\CantelliPerelli\RPTBK\obj\Debug\RPTBK.csprojAssemblyReference.cache
+C:\Users\hanif\source\CantelliPerelli\RPTBK\obj\Debug\RPTBK.Form1.resources
+C:\Users\hanif\source\CantelliPerelli\RPTBK\obj\Debug\RPTBK.Properties.Resources.resources
+C:\Users\hanif\source\CantelliPerelli\RPTBK\obj\Debug\RPTBK.csproj.GenerateResource.cache
+C:\Users\hanif\source\CantelliPerelli\RPTBK\obj\Debug\RPTBK.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\CantelliPerelli\RPTBK\obj\Debug\RPTBK.exe
+C:\Users\hanif\source\CantelliPerelli\RPTBK\obj\Debug\RPTBK.pdb

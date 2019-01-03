@@ -1,0 +1,10 @@
+C:\Users\hanif\source\CantelliPerelli\ANKAR\bin\Debug\ANKAR.exe.config
+C:\Users\hanif\source\CantelliPerelli\ANKAR\bin\Debug\ANKAR.exe
+C:\Users\hanif\source\CantelliPerelli\ANKAR\bin\Debug\ANKAR.pdb
+C:\Users\hanif\source\CantelliPerelli\ANKAR\obj\Debug\ANKAR.csprojAssemblyReference.cache
+C:\Users\hanif\source\CantelliPerelli\ANKAR\obj\Debug\ANKAR.Form1.resources
+C:\Users\hanif\source\CantelliPerelli\ANKAR\obj\Debug\ANKAR.Properties.Resources.resources
+C:\Users\hanif\source\CantelliPerelli\ANKAR\obj\Debug\ANKAR.csproj.GenerateResource.cache
+C:\Users\hanif\source\CantelliPerelli\ANKAR\obj\Debug\ANKAR.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\CantelliPerelli\ANKAR\obj\Debug\ANKAR.exe
+C:\Users\hanif\source\CantelliPerelli\ANKAR\obj\Debug\ANKAR.pdb

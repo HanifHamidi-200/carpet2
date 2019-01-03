@@ -1,0 +1,10 @@
+C:\Users\hanif\source\CantelliPerelli\ROBOT\ROBOT\bin\Debug\ROBOT.exe.config
+C:\Users\hanif\source\CantelliPerelli\ROBOT\ROBOT\bin\Debug\ROBOT.exe
+C:\Users\hanif\source\CantelliPerelli\ROBOT\ROBOT\bin\Debug\ROBOT.pdb
+C:\Users\hanif\source\CantelliPerelli\ROBOT\ROBOT\obj\Debug\ROBOT.csprojAssemblyReference.cache
+C:\Users\hanif\source\CantelliPerelli\ROBOT\ROBOT\obj\Debug\ROBOT.Form1.resources
+C:\Users\hanif\source\CantelliPerelli\ROBOT\ROBOT\obj\Debug\ROBOT.Properties.Resources.resources
+C:\Users\hanif\source\CantelliPerelli\ROBOT\ROBOT\obj\Debug\ROBOT.csproj.GenerateResource.cache
+C:\Users\hanif\source\CantelliPerelli\ROBOT\ROBOT\obj\Debug\ROBOT.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\CantelliPerelli\ROBOT\ROBOT\obj\Debug\ROBOT.exe
+C:\Users\hanif\source\CantelliPerelli\ROBOT\ROBOT\obj\Debug\ROBOT.pdb

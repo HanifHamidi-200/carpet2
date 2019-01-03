@@ -1,0 +1,13 @@
+C:\Users\hanif\source\repos\MORROW\bin\Debug\MORROW.exe.config
+C:\Users\hanif\source\repos\MORROW\bin\Debug\MORROW.exe
+C:\Users\hanif\source\repos\MORROW\bin\Debug\MORROW.pdb
+C:\Users\hanif\source\repos\MORROW\obj\Debug\MORROW.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\MORROW\obj\Debug\MORROW.Form1.resources
+C:\Users\hanif\source\repos\MORROW\obj\Debug\MORROW.fSub1.resources
+C:\Users\hanif\source\repos\MORROW\obj\Debug\MORROW.fSub2.resources
+C:\Users\hanif\source\repos\MORROW\obj\Debug\MORROW.fSub3.resources
+C:\Users\hanif\source\repos\MORROW\obj\Debug\MORROW.Properties.Resources.resources
+C:\Users\hanif\source\repos\MORROW\obj\Debug\MORROW.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\MORROW\obj\Debug\MORROW.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\MORROW\obj\Debug\MORROW.exe
+C:\Users\hanif\source\repos\MORROW\obj\Debug\MORROW.pdb

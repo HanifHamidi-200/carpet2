@@ -1,0 +1,13 @@
+C:\Users\hanif\source\CantelliPerelli\FTTW\bin\Debug\FTTW.exe.config
+C:\Users\hanif\source\CantelliPerelli\FTTW\bin\Debug\FTTW.exe
+C:\Users\hanif\source\CantelliPerelli\FTTW\bin\Debug\FTTW.pdb
+C:\Users\hanif\source\CantelliPerelli\FTTW\obj\Debug\FTTW.csprojAssemblyReference.cache
+C:\Users\hanif\source\CantelliPerelli\FTTW\obj\Debug\FTTW.Form1.resources
+C:\Users\hanif\source\CantelliPerelli\FTTW\obj\Debug\FTTW.fSub1.resources
+C:\Users\hanif\source\CantelliPerelli\FTTW\obj\Debug\FTTW.fSub2.resources
+C:\Users\hanif\source\CantelliPerelli\FTTW\obj\Debug\FTTW.fSub3.resources
+C:\Users\hanif\source\CantelliPerelli\FTTW\obj\Debug\FTTW.Properties.Resources.resources
+C:\Users\hanif\source\CantelliPerelli\FTTW\obj\Debug\FTTW.csproj.GenerateResource.cache
+C:\Users\hanif\source\CantelliPerelli\FTTW\obj\Debug\FTTW.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\CantelliPerelli\FTTW\obj\Debug\FTTW.exe
+C:\Users\hanif\source\CantelliPerelli\FTTW\obj\Debug\FTTW.pdb

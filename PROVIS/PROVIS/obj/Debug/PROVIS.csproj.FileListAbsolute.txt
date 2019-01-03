@@ -1,0 +1,13 @@
+C:\Users\hanif\source\repos\PROVIS\PROVIS\bin\Debug\PROVIS.exe.config
+C:\Users\hanif\source\repos\PROVIS\PROVIS\bin\Debug\PROVIS.exe
+C:\Users\hanif\source\repos\PROVIS\PROVIS\bin\Debug\PROVIS.pdb
+C:\Users\hanif\source\repos\PROVIS\PROVIS\obj\Debug\PROVIS.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\PROVIS\PROVIS\obj\Debug\PROVIS.Form1.resources
+C:\Users\hanif\source\repos\PROVIS\PROVIS\obj\Debug\PROVIS.fSub1.resources
+C:\Users\hanif\source\repos\PROVIS\PROVIS\obj\Debug\PROVIS.fSub2.resources
+C:\Users\hanif\source\repos\PROVIS\PROVIS\obj\Debug\PROVIS.fSub3.resources
+C:\Users\hanif\source\repos\PROVIS\PROVIS\obj\Debug\PROVIS.Properties.Resources.resources
+C:\Users\hanif\source\repos\PROVIS\PROVIS\obj\Debug\PROVIS.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\PROVIS\PROVIS\obj\Debug\PROVIS.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\PROVIS\PROVIS\obj\Debug\PROVIS.exe
+C:\Users\hanif\source\repos\PROVIS\PROVIS\obj\Debug\PROVIS.pdb

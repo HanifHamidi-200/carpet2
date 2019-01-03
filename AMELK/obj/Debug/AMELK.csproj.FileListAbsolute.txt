@@ -1,0 +1,13 @@
+C:\Users\hanif\source\LibraryADF4\AMELK\bin\Debug\AMELK.exe.config
+C:\Users\hanif\source\LibraryADF4\AMELK\bin\Debug\AMELK.exe
+C:\Users\hanif\source\LibraryADF4\AMELK\bin\Debug\AMELK.pdb
+C:\Users\hanif\source\LibraryADF4\AMELK\obj\Debug\AMELK.csprojAssemblyReference.cache
+C:\Users\hanif\source\LibraryADF4\AMELK\obj\Debug\AMELK.Form1.resources
+C:\Users\hanif\source\LibraryADF4\AMELK\obj\Debug\AMELK.fSub1.resources
+C:\Users\hanif\source\LibraryADF4\AMELK\obj\Debug\AMELK.fSub2.resources
+C:\Users\hanif\source\LibraryADF4\AMELK\obj\Debug\AMELK.fSub3.resources
+C:\Users\hanif\source\LibraryADF4\AMELK\obj\Debug\AMELK.Properties.Resources.resources
+C:\Users\hanif\source\LibraryADF4\AMELK\obj\Debug\AMELK.csproj.GenerateResource.cache
+C:\Users\hanif\source\LibraryADF4\AMELK\obj\Debug\AMELK.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\LibraryADF4\AMELK\obj\Debug\AMELK.exe
+C:\Users\hanif\source\LibraryADF4\AMELK\obj\Debug\AMELK.pdb

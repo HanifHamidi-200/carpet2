@@ -1,0 +1,10 @@
+C:\Users\hanif\source\CantelliPerelli\RENACT\bin\Debug\RENACT.exe.config
+C:\Users\hanif\source\CantelliPerelli\RENACT\bin\Debug\RENACT.exe
+C:\Users\hanif\source\CantelliPerelli\RENACT\bin\Debug\RENACT.pdb
+C:\Users\hanif\source\CantelliPerelli\RENACT\obj\Debug\RENACT.csprojAssemblyReference.cache
+C:\Users\hanif\source\CantelliPerelli\RENACT\obj\Debug\RENACT.Form1.resources
+C:\Users\hanif\source\CantelliPerelli\RENACT\obj\Debug\RENACT.Properties.Resources.resources
+C:\Users\hanif\source\CantelliPerelli\RENACT\obj\Debug\RENACT.csproj.GenerateResource.cache
+C:\Users\hanif\source\CantelliPerelli\RENACT\obj\Debug\RENACT.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\CantelliPerelli\RENACT\obj\Debug\RENACT.exe
+C:\Users\hanif\source\CantelliPerelli\RENACT\obj\Debug\RENACT.pdb

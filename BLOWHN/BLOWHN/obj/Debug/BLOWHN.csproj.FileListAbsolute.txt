@@ -1,0 +1,10 @@
+C:\Users\hanif\source\CantelliPerelli\BLOWHN\BLOWHN\bin\Debug\BLOWHN.exe.config
+C:\Users\hanif\source\CantelliPerelli\BLOWHN\BLOWHN\bin\Debug\BLOWHN.exe
+C:\Users\hanif\source\CantelliPerelli\BLOWHN\BLOWHN\bin\Debug\BLOWHN.pdb
+C:\Users\hanif\source\CantelliPerelli\BLOWHN\BLOWHN\obj\Debug\BLOWHN.csprojAssemblyReference.cache
+C:\Users\hanif\source\CantelliPerelli\BLOWHN\BLOWHN\obj\Debug\BLOWHN.Form1.resources
+C:\Users\hanif\source\CantelliPerelli\BLOWHN\BLOWHN\obj\Debug\BLOWHN.Properties.Resources.resources
+C:\Users\hanif\source\CantelliPerelli\BLOWHN\BLOWHN\obj\Debug\BLOWHN.csproj.GenerateResource.cache
+C:\Users\hanif\source\CantelliPerelli\BLOWHN\BLOWHN\obj\Debug\BLOWHN.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\CantelliPerelli\BLOWHN\BLOWHN\obj\Debug\BLOWHN.exe
+C:\Users\hanif\source\CantelliPerelli\BLOWHN\BLOWHN\obj\Debug\BLOWHN.pdb

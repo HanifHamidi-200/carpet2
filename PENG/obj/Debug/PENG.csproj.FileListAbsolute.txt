@@ -1,0 +1,12 @@
+C:\Users\hanif\source\CantelliPerelli\PENG\obj\Debug\PENG.csprojAssemblyReference.cache
+C:\Users\hanif\source\CantelliPerelli\PENG\obj\Debug\PENG.Form1.resources
+C:\Users\hanif\source\CantelliPerelli\PENG\obj\Debug\PENG.fSub1.resources
+C:\Users\hanif\source\CantelliPerelli\PENG\obj\Debug\PENG.fSub2.resources
+C:\Users\hanif\source\CantelliPerelli\PENG\obj\Debug\PENG.Properties.Resources.resources
+C:\Users\hanif\source\CantelliPerelli\PENG\obj\Debug\PENG.csproj.GenerateResource.cache
+C:\Users\hanif\source\CantelliPerelli\PENG\obj\Debug\PENG.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\CantelliPerelli\PENG\bin\Debug\PENG.exe.config
+C:\Users\hanif\source\CantelliPerelli\PENG\bin\Debug\PENG.exe
+C:\Users\hanif\source\CantelliPerelli\PENG\bin\Debug\PENG.pdb
+C:\Users\hanif\source\CantelliPerelli\PENG\obj\Debug\PENG.exe
+C:\Users\hanif\source\CantelliPerelli\PENG\obj\Debug\PENG.pdb
